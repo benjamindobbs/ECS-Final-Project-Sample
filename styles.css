@@ -15,6 +15,10 @@
     justify-content: space-around;
     margin-bottom: 5em;
 }
+.nav a:hover{
+    background-color: rgba(100, 100, 125, .7);
+    scale: 1.05;
+}
 img{
     float: left;
     margin: 30px;
@@ -45,4 +49,7 @@ body{
 }
 ul{
     list-style-position: inside;
+}
+#home{
+    font-style: italic;
 }
